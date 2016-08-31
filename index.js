@@ -14,6 +14,6 @@ const calculator = function(points, divisor){
   return count;
 };
 
-let num = calculator(174,12);
+let num = calculator(process.argv[2],process.argv[3]);
 
 console.log("num is ", num);
